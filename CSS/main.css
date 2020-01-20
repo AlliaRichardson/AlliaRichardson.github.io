@@ -2716,7 +2716,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: rgba(112, 155, 212, 0.137);
 		}
 
 		input[type="submit"]:active,
