@@ -2,69 +2,164 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="CSS/main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="shortcut icon" href="images/aLogo.ico" />
         <title>Allia Richardson</title>
     </head>
-    <body>
+    <body class="is-preload">
 
         <!--header-->
         <section id="header">
-            <div class="innerHeader">
-                <span class="headerIcon"><img src="images/aLogo.svg" alt="" /></span>
-                <h1>Hello, I'm <strong>Allia Richardson</strong>, <br /> 
-                    welcome to my Portfolio!</h1>
-                <p>I am a software engineer that prides myself on innovative ideas <br />
-                    and good problem-solving skills. I enjoy applying new and unique  <br />
-                    approaches to software and hardware integration. <br />
+            <div class="inner">
+                <span class="icon solid major headerIcon"><img src="images/aLogo.svg" alt="" /></span>
+                <h1>Hello, I'm <strong>Allia Richardson</strong></h1>
+                <p>I am an entry level software developer engineer that prides myself on<br />
+                    innovative ideas and good problem-solving skills. I enjoy applying new<br />
+                    and unique approaches to software and hardware integration. <br />
+                    <ul class="actions special">
+						<li><a href="#one" class="button scrolly">Discover</a></li>
+					</ul>
             </div>
         </section>
 
-        <!--Project List-->
-        <section id="projects" class="main style1 special">
+
+
+		<!-- Water Camper System -->
+        <section id="one" class="main style1">
             <div class="container">
                 <header class="major">
-                    <h2>Projects</h2>
+                    <h2>Camper Water System & Power Monitoring Unit</h2>
                 </header>
-                <p>Below are projects that I have worked on either 
-                    individually, or projects that I have worked on 
-                    within a team.<br />All designs are in Adobe XD.</p>
-                
                 <div class="row gtr-150">
-                    <div class="col-4 col-12-medium">
-                        <!--<h3><strong>Camper Water System</strong></h3>-->
-                        <span class="headerIcon"><img src="images/WaterLogo.svg" alt="" /></span>
-                        <h3><strong>Camper Water System</strong></h3>
-                        <p>An application built to monitor the three water tanks in a camper.</p>
-                        <ul class="actions special">
-                            <li><a href="https://github.com/Eeddey/Camper-Water-Monitoring-System" class="button">Code</a></li>
-                            <li><a href="https://drive.google.com/file/d/1E-l4lwg4nty__pxeqr5Q4jhNCSL_rQnw/view" class="button">Doc</a></li>
-						</ul>
+                    <div class="col-6 col-12-medium">
+                        <p>A software application that monitors the voltage the power supply, battery, gives to the Raspberry Pi, 
+                            monitors the water levels of the fresh water, grey water, and black water tanks, and displays the usage 
+                            of the tanks and battery over time. </p>
+                        <h3><b>Technology</b></h3>
+                        <p>The Camper Water Monitoring System & Power Monitoring Unit was built with eric IDE, Qt Designer, and 
+                            RaspberryPi . The MariaDB stores water information every ten seconds, to store and keep track of 
+                            water usage. A Pi-Plate DAQC card intakes information from three pressure sensors located in three 
+                            different water tanks, and an Arduino that is attached to an alarm. </p>
                     </div>
-                    <div class="col-4 col-12-medium">
-                        <!--<h3><strong>Hands Up</strong></h3>-->
-                        <span class="headerIcon"><img src="images/HandsUpLogo.svg" alt="" /></span>
-                        <h3><strong>Hands Up</strong></h3>
-                        <p>A mobile application built to record students attendance using GPS.</p>
-                        <ul class="actions special">
-                            <li><a href="https://github.com/Eeddey/HandsUp" class="button">Code</a></li>
-                            <li><a href="https://drive.google.com/file/d/1hwELlooSUQ-JgXZZGXiZT4HGF0tJ0Ql4/view?usp=sharing" class="button">Design</a></li>
-						</ul>
+                    <div class="col-6 col-12-medium imp-medium">
+                        <span class="image fit"><img src="images/WMS.png" alt="" /></span>
                     </div>
-                    <div class="col-4 col-12-medium">
-                        <!--<h3><strong>Xylophun</strong></h3>-->
-                        <span class="headerIcon"><img src="images/xylophunLogo.svg" alt="" /></span>
-                        <h3><strong>Xylophun</strong></h3>
-                        <p>A mobile application that allows a user to play an eight key xylophone.</p>
-                        <ul class="actions special col-5">
-                            <li><a href="https://github.com/Eeddey/Xylophun" class="button">Code</a></li>
-                            <li><a href="https://drive.google.com/file/d/1_RPgpQXzkpLIByJ8fls0HVp4Ev4aIGut/view?usp=sharing" class="button">Design</a></li>
-						</ul>
+                </div>
+                <ul class="actions special col-5">
+                    <li><a href="https://github.com/Eeddey/Camper-Water-Monitoring-System" class="button">View on GitHub</a></li>
+                    <li><a href="https://drive.google.com/file/d/1E-l4lwg4nty__pxeqr5Q4jhNCSL_rQnw/view" class="button">SRS Document</a></li>
+                </ul>
+                <ul class="iconRow special ">
+                    <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/Eric/EricLogoSmall.jpg">
+                        <img src="images/Logos/Eric/EricLogo.jpg" alt="EricIDE">
+                        </picture></li> 
+                        <li><picture>
+                            <source media="(max-width: 799px)" srcset="images/Logos/Qt/QTLogoSmall.jpg">
+                            <img src="images/Logos/Qt/QtDesignerLogo.jpg" alt="Qt">
+                            </picture></li> 
+                        <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/Python/PythonLogoSmall.jpg">
+                        <img src="images/Logos/Python/PythonLogo.jpg" alt="Python">
+                        </picture></li> 
+                        <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/Raspberry/RaspberryPiLogoSmall.jpg">
+                        <img src="images/Logos/Raspberry/RaspberryPiLogo.jpg" alt="Raspberry">
+                        </picture></li> 
+                        <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/Maria/MariaDBLogoSmall.jpg">
+                        <img src="images/Logos/Maria/MariaDB.jpg" alt="Small">
+                        </picture></li> 
+                </ul> 
+            </div>
+        </section>
+
+        
+		<!-- Hands Up -->
+        <section id="two" class="main style2">
+            <div class="container">
+                <header class="major">
+                    <h2>Hands Up</h2>
+                </header>
+                <div class="row gtr-150">
+                    <div class="col-6 col-12-medium imp-medium">
+                        <span class="image fit"><img src="images/HandsUpImage.png" alt="" /></span>
+                    </div>
+                    <div class="col-6 col-12-medium imp-medium">
+                        <p>An Android mobile application that automates a user’s attendance record based on 
+                            their android device’s location. It also allows a Professor to check the attendance record 
+                            of their class.</p>
+                        <h3><b>Technology</b></h3>
+                        <p>Hands Up was built with Android Studio and uses the Kotlin programming language. Integrating 
+                            with the Google Maps API for GPS coordinates of user’s location. Firebase database real-time 
+                            provides the database solution for the storage of attendance records in Firebase's cloud.  </p>
                     </div>
                     
                 </div>
+                <ul class="actions special col-5">
+                    <li><a href="https://github.com/Eeddey/HandsUp" class="button">View on GitHub</a></li>
+                    <li><a href="https://drive.google.com/file/d/1hwELlooSUQ-JgXZZGXiZT4HGF0tJ0Ql4/view?usp=sharing" 
+                        class="button">Adobe XD Design</a></li>
+              </ul>
+                <ul class="iconRow special">
+                <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/Android/Dark/AndroidLogoSmall.jpg">
+                        <img src="images/Logos/Android/Dark/AndroidLogo.jpg" alt="Android">
+                    </picture></li> 
+                    <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/AndroidStudio/Dark/AndroidStudioLogoSmall.jpg">
+                        <img src="images/Logos/AndroidStudio/Dark/AndroidStudioLogo.jpg" alt="AndroidStidio">
+                    </picture></li> 
+                    <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/Kotlin/KotlinLogoSmall.jpg">
+                        <img src="images/Logos/Kotlin/KotlinLogo.jpg" alt="Kotlin">
+                    </picture></li> 
+                    <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/Firebase/FirebaseLogoSmall.jpg">
+                        <img src="images/Logos/Firebase/FirebaseLogo.jpg" alt="Firebase">
+                    </picture></li> 
+                </ul>  
+            </div>
+        </section>
+
+        <!-- Xylophun -->
+        <section id="three" class="main style1">
+            <div class="container">
+                <header class="major">
+                    <h2>Xylophun</h2>
+                </header>
+                <div class="row gtr-150">
+                    <div class="col-6 col-12-medium">
+                        <p>An Android mobile application that allows a user to play an eight keyed xylophone.  The applications
+                            comes with sheet music so the user can play along. </p>
+                        <h3><b>Technology</b></h3>
+                        <p>Hands Up is an Android application and was built with Android Studio and Java programming language. 
+                            XML was utilized to design and construct a responsive user interface.</p>
+                    </div>
+                    <div class="col-6 col-12-medium imp-medium">
+                        <span class="image fit"><img src="images/XylophunImage.png" alt="" /></span>
+                    </div>
+                </div>
+                <ul class="actions special col-5">
+                    <li><a href="https://github.com/Eeddey/Xylophun" class="button">View on GitHub</a></li>
+                    <li><a href="https://drive.google.com/file/d/1_RPgpQXzkpLIByJ8fls0HVp4Ev4aIGut/view?usp=sharing" class="button">Adobe XD Design</a></li>
+                </ul>
+                <ul class="iconRow  special ">
+                    <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/Android/Light/AndroidLogoWSmall.jpg">
+                        <img src="images/Logos/Android/Light/AndroidLogoW.jpg" alt="Android">
+                        </picture></li> 
+                        <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/AndroidStudio/Light/AndroidStudioLogoWSmall.jpg">
+                        <img src="images/Logos/AndroidStudio/Light/AndroidStudioLogoW.jpg" alt="AndroidStudio">
+                        </picture></li> 
+                        <li><picture>
+                        <source media="(max-width: 799px)" srcset="images/Logos/Java/JavaLogoSmall.jpg">
+                        <img src="images/Logos/Java/JavaLogo.jpg" alt="Java">
+                        </picture></li> 
+                </ul>     
             </div>
         </section>
 
@@ -98,5 +193,13 @@
                 <li>&copy; Allia Richardson</li>
             </ul>
         </section>
+
+        <!--Scripts-->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
