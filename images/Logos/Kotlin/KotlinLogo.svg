@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="96.667px" height="36.667px" viewBox="0 0 96.667 36.667" enable-background="new 0 0 96.667 36.667" xml:space="preserve">
-<g id="Layer_1">
-	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0.021" y1="36.896" x2="18.4377" y2="18.4792">
+<g id="Layer_1_1_">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="206.022" y1="-295.2295" x2="224.4385" y2="-276.8129" gradientTransform="matrix(1 0 0 -1 -206 -258.333)">
 		<stop  offset="0" style="stop-color:#00CBFB"/>
 		<stop  offset="0.167" style="stop-color:#12BEFB"/>
 		<stop  offset="0.5017" style="stop-color:#409BFC"/>
@@ -12,7 +13,8 @@
 		<stop  offset="1" style="stop-color:#905FFD"/>
 	</linearGradient>
 	<polygon fill="url(#SVGID_1_)" points="36.625,36.667 0.167,37.042 0.167,0.375 	"/>
-	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-9.1973" y1="27.5942" x2="27.511" y2="-9.114">
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="196.8032" y1="-285.9263" x2="233.5114" y2="-249.2182" gradientTransform="matrix(1 0 0 -1 -206 -258.333)">
 		<stop  offset="0" style="stop-color:#00CBFB"/>
 		<stop  offset="0.1107" style="stop-color:#04C8FB"/>
 		<stop  offset="0.2176" style="stop-color:#0FBFFB"/>
@@ -23,7 +25,8 @@
 		<stop  offset="0.6424" style="stop-color:#905FFD"/>
 	</linearGradient>
 	<polygon fill="url(#SVGID_2_)" points="0,36.792 0,0 36.625,0 	"/>
-	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="0.1094" y1="18.188" x2="36.625" y2="18.188">
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="206.1089" y1="-276.52" x2="242.6245" y2="-276.52" gradientTransform="matrix(1 0 0 -1 -206 -258.333)">
 		<stop  offset="0" style="stop-color:#C757BC"/>
 		<stop  offset="0.087" style="stop-color:#CF5F9F"/>
 		<stop  offset="0.2434" style="stop-color:#DC6C71"/>
@@ -34,8 +37,6 @@
 		<stop  offset="1" style="stop-color:#F98908"/>
 	</linearGradient>
 	<polygon fill="url(#SVGID_3_)" points="0.167,36.375 0.109,19.875 20.219,0 36.625,0 	"/>
-	<text transform="matrix(1 0 0 1 35.9175 25.6548)" fill="#EAEAEA" font-family="'MyriadPro-Regular'" font-size="23.1874">Kotlin</text>
-</g>
-<g id="Layer_2">
+	<text transform="matrix(1 0 0 1 35.918 25.6538)" fill="#EAEAEA" font-family="'MyriadPro-Regular'" font-size="23.1874">Kotlin</text>
 </g>
 </svg>
